@@ -1,0 +1,15 @@
+file = open("Python.txt", 'w')
+file.write("I Like Python Programming")
+file.close()
+file = open("Python.txt", 'r')
+content = file.read()
+file.close()
+print(content)
+file = open("Python.txt", 'a')
+file.write("I Like Java Programming also")
+file.close()
+file = open("Python.txt", 'r+')
+file.write("I Like Python Programming and coding")
+file.close()
+
+
